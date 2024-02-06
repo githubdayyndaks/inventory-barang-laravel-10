@@ -775,3 +775,11 @@ function grax_tm_totop() {
     return false;
   });
 }
+
+
+// -------------------------------------------------
+// -------------  text hover  --------------------------
+// -------------------------------------------------
+
+// let logoHover = document.querySelector('#logo-hover');
+// logoHover.innerHTML = logoHover.innerText.split('').map((letters, i) => `<span style="transition-delay:$(i*40)ms;filter:hue-rotate(${i*30}deg)">${letters}</span>`).join('');
