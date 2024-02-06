@@ -62,6 +62,9 @@ body.dark .overlay_effect:after{
 body.dark .grax_tm_portfolio .overlay{
 	background-color: #111;
 }
+body.dark .portfolio_list .right h4{
+	color: #fff;
+}
 body.dark .grax_tm_news{
 	background-color: #111;
 }
@@ -111,5 +114,8 @@ body.dark .progress_inner .background{
 	background: rgba(255,255,255,.09);
 }
 body.dark .progress_inner > span{
+	color: #fff;
+}
+body.wow fadeInLeft .right h4{
 	color: #fff;
 }

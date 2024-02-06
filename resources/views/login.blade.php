@@ -64,6 +64,7 @@
                       <input type="checkbox" class="form-check-input" id="checkbox-signin" checked />
                       <label class="form-check-label" for="checkbox-signin">Remember me</label>
                     </div>
+                    <a href="/">Kembali ke landingpage</a>
                   </div>
 
                   <div class="mb-3 d-grid text-center">

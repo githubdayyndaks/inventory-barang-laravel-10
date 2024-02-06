@@ -119,6 +119,12 @@ h6 {
   font-size: 16px;
 }
 
+.right{
+  float: left;
+  width: 300px;
+ padding: 2px;
+}
+
 .grax_tm_all_wrap {
   width: 100%;
   height: auto;
@@ -299,6 +305,21 @@ h6 {
 .grax_tm_topbar.animate .logo .light {
   display: none;
 }
+
+#logo-hover{
+  background-image: linear-gradient(to right, #fff, #fff);
+    background-clip: text;
+    -webkit-background-clip: text; /* Untuk dukungan browser WebKit */
+    color: transparent;
+    background-size: 100% 100%; /* Ukuran gradien sama dengan ukuran teks */
+    transition: background-size 0.3s ease-in-out; /* Transisi untuk background-size */
+}
+
+#logo-hover:hover{
+  background-image: linear-gradient(to right, rgb(70, 132, 255), rgb(255, 172, 18));
+  background-size: 50% 100%; /* Memperbesar gradien saat hover */
+}
+
 .grax_tm_topbar .logo img {
   max-width: 100px;
 }
@@ -547,6 +568,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  filter:brightness(0.5);
 }
 .grax_tm_hero .bg .overlay {
   position: absolute;
@@ -576,7 +598,7 @@ h6 {
 .grax_tm_hero .name {
   font-size: 72px;
   font-weight: 700;
-  color: #fff;
+  color: rgb(70, 132, 255);
   margin-bottom: 11px;
 }
 
@@ -641,7 +663,7 @@ h6 {
   transition: all 0.4s ease;
 }
 .grax_tm_hero .job {
-  color: #ddd;
+  color: rgb(255, 140, 0);
   letter-spacing: 1.5px;
   font-family: 'Poppins';
   font-size: 17px;
@@ -832,8 +854,8 @@ h6 {
   width: 100%;
   color: #fff;
   display: inline-block;
-  background-color: #e54b4b;
-  border: 2px solid #e54b4b;
+  background-color: rgb(70, 132, 255);
+  border: 2px solid rgb(70, 132, 255);
   padding: 10px 40px;
   border-radius: 5px;
   -webkit-transition: all 0.3s ease;
@@ -2038,7 +2060,7 @@ body.modal {
   top: 20%;
   right: -200px;
   width: 200px;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgb(67, 66, 66);
   padding: 40px 20px 33px 30px;
 
   -webkit-transition: all 0.3s ease;
@@ -2060,8 +2082,8 @@ body.modal {
   position: absolute;
   top: 0px;
   right: 100%;
-  background-color: #000;
-  padding: 12px 12px 4px 12px;
+  background-color: rgb(67, 66, 66);
+  padding: 15px ;
 }
 .grax_tm_settings .icon .svg {
   color: #fff;

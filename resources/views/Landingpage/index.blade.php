@@ -26,8 +26,8 @@
     <div class="grax_tm_all_wrap" data-magic-cursor data-color="crimson">
       <div class="grax_tm_settings">
         <div class="icon">
-          <img class="svg" src="{{asset('Landingpage/img/svg/setting.svg')}}" alt />
-          <a class="link" href="#"></a>
+    
+          <a class="link" href="#"><img class="svg" src="{{asset('Landingpage/img/svg/setting.png')}}" alt /></a>
         </div>
         <div class="wrapper">
           <ul class="direction">
@@ -78,7 +78,7 @@
           <div class="topbar_inner">
             <div class="logo">
               <h2 class="dark" style="color: black">LennWillDayy</h2>
-              <h2 class="light" style="color: white">LennWillDayy</h2>
+              <h2 class="light" id="logo-hover" >LennWillDayy</h2>
             </div>
             <div class="menu">
               <ul class="anchor_nav">
@@ -88,7 +88,7 @@
                 <li><a href="#news">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                  <a style="color: red" href="login"><b>Login</b></a>
+                  <a style="color: rgb(255, 140, 0)" href="login"><b>Login</b></a>
                 </li>
               </ul>
             </div>
@@ -211,87 +211,109 @@
             <div class="portfolio_list">
               <ul class="gallery_zoom my_waypoint">
                 <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                  <div class="list_inner">
-                    <div class="image">
-                      <img src="img/placeholders/1-1.jpg" alt />
+                <div class="right">
+                      <h4 class="putih" >LAB KOMPUTER</h4>
                       <div class="main" data-img-url="img/portfolio/1.jpg"></div>
-                    </div>
-                    <div class="overlay"></div>
-                    <div class="details">
-                      <span>Video</span>
-                      <h3>Sweet Fruit</h3>
-                    </div>
-                    <a class="grax_tm_full_link popup-youtube" href="https://www.youtube.com/watch?v=ICr_bOuM9Zo"></a>
-                  </div>
-                </li>
-                <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
-                  <div class="list_inner">
-                    <div class="image">
-                      <img src="img/placeholders/1-1.jpg" alt />
-                      <div class="main" data-img-url="img/portfolio/2.jpg"></div>
-                    </div>
-                    <div class="overlay"></div>
-                    <div class="details">
-                      <span>Branding</span>
-                      <h3>Good Present</h3>
-                    </div>
-                    <a class="grax_tm_full_link zoom" href="img/portfolio/2.jpg"></a>
-                  </div>
-                </li>
-                <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".4s">
-                  <div class="list_inner">
-                    <div class="image">
-                      <img src="img/placeholders/1-1.jpg" alt />
-                      <div class="main" data-img-url="img/portfolio/3.jpg"></div>
-                    </div>
-                    <div class="overlay"></div>
-                    <div class="details">
-                      <span>Design</span>
-                      <h3>Ice Cream</h3>
-                    </div>
-                    <a class="grax_tm_full_link zoom" href="img/portfolio/3.jpg"></a>
                   </div>
                 </li>
                 <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                  <div class="list_inner">
-                    <div class="image">
-                      <img src="img/placeholders/1-1.jpg" alt />
-                      <div class="main" data-img-url="img/portfolio/4.jpg"></div>
-                    </div>
-                    <div class="overlay"></div>
-                    <div class="details">
-                      <span>Video</span>
-                      <h3>Black Coffee</h3>
-                    </div>
-                    <a class="grax_tm_full_link popup-youtube" href="https://www.youtube.com/watch?v=ICr_bOuM9Zo"></a>
+                <div class="right">
+                      <h4 class="putih">LAB FARMASI</h4>
+                      <div class="main" data-img-url="img/portfolio/1.jpg"></div>
+               
+                   
                   </div>
                 </li>
-                <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
-                  <div class="list_inner">
-                    <div class="image">
-                      <img src="img/placeholders/1-1.jpg" alt />
-                      <div class="main" data-img-url="img/portfolio/5.jpg"></div>
-                    </div>
-                    <div class="overlay"></div>
-                    <div class="details">
-                      <span>Branding</span>
-                      <h3>Blue Lemon</h3>
-                    </div>
-                    <a class="grax_tm_full_link zoom" href="img/portfolio/5.jpg"></a>
+        
+                <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="right">
+                 
+                      <h4 class="putih">Bengkel</h4>
+                      <div class="main" data-img-url="img/portfolio/1.jpg"></div>
+               
+                   
                   </div>
                 </li>
-                <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".4s">
-                  <div class="list_inner">
-                    <div class="image">
-                      <img src="img/placeholders/1-1.jpg" alt />
-                      <div class="main" data-img-url="img/portfolio/7.jpg"></div>
-                    </div>
-                    <div class="overlay"></div>
-                    <div class="details">
-                      <span>Design</span>
-                      <h3>Delicious Cherry</h3>
-                    </div>
-                    <a class="grax_tm_full_link zoom" href="img/portfolio/7.jpg"></a>
+                <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="right">
+                 
+                      <h4 class="putih">UKS</h4>
+                      <div class="main" data-img-url="img/portfolio/1.jpg"></div>
+               
+                   
+                  </div>
+                </li>
+        
+                <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="right">
+                 
+                      <h4 class="putih">Kitchen</h4>
+                      <div class="main" data-img-url="img/portfolio/1.jpg"></div>
+               
+                   
+                  </div>
+                </li>
+                <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="right">
+                 
+                      <h4 class="putih">Mushola</h4>
+                      <div class="main" data-img-url="img/portfolio/1.jpg"></div>
+               
+                   
+                  </div>
+                </li>
+                <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="right">
+                 
+                      <h4 class="putih">Koperasi</h4>
+                      <div class="main" data-img-url="img/portfolio/1.jpg"></div>
+               
+                   
+                  </div>
+                </li>
+                <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="right">
+                 
+                      <h4 class="putih">BKK</h4>
+                      <div class="main" data-img-url="img/portfolio/1.jpg"></div>
+               
+                   
+                  </div>
+                </li>
+                <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="right">
+                 
+                      <h4 class="putih">Tata usaha</h4>
+                      <div class="main" data-img-url="img/portfolio/1.jpg"></div>
+               
+                   
+                  </div>
+                </li>
+                <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="right">
+                 
+                      <h4 class="putih">Kepala sekolah</h4>
+                      <div class="main" data-img-url="img/portfolio/1.jpg"></div>
+               
+                   
+                  </div>
+                </li>
+                <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="right">
+                 
+                      <h4 class="putih">Perpustakaan</h4>
+                      <div class="main" data-img-url="img/portfolio/1.jpg"></div>
+               
+                   
+                  </div>
+                </li>
+                <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="right">
+                 
+                      <h4 class="putih">Front office</h4>
+                      <div class="main" data-img-url="img/portfolio/1.jpg"></div>
+               
+                   
                   </div>
                 </li>
               </ul>
